@@ -22,7 +22,7 @@ This script measures 3 stats:
 
 On their own these stats aren't much. Taken together over many months they tell a story:
 
-![Spreadsheet showing 6 months of stats](https://raw.githubusercontent.com/serverdensity/measure-react-component-reuse/master/serverdensity-stats.png?raw=true)
+![Image showing 6 months of stats](https://github.com/serverdensity/measure-react-component-reuse/blob/master/serverdensity-stats.png)
 
 This tells us that the number of components, and instances of those generic components has been increasing at a pretty steady rate which means we are getting better at re-using components. However, in the most recent month the instances per generic component decreased. Because the number of generic components increased this tells us that we added new generic components that have not yet been re-used in many places.  If this is true we might expect to see the instances per generic component increase at an accelerated rate over the next few months.
 
@@ -36,7 +36,7 @@ To generate the stats for the components in this repository:
 
 This will generate stats like so:
 
-![Sample output from this script](https://raw.githubusercontent.com/serverdensity/measure-react-component-reuse/master/sample-stats.png?raw=true)
+![Sample output from this script](https://github.com/serverdensity/measure-react-component-reuse/blob/master/sample-stats.png)
 
 ## Limitations
 
