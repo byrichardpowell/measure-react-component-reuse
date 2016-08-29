@@ -42,6 +42,6 @@ This will generate stats like so:
 
 Just like [Document Generic React Components](https://github.com/byrichardpowell/Document-Generic-React-Components) this script was built for the specific requirements of the Server Density UI codebase. No configuration is provided and the script works based on assumptions that are only likely to be true in our code-base.
 
-If you wish to use this yourself you will need to edit the code in `scripts/create-generic-component-docs.js` to make it work with the requirements of your code-base. The approach should be sound, but file paths, regular expressions, stuff like that will need to be customised.
+If you wish to use this yourself you will need to edit the code in [scripts/create-generic-component-docs.js](https://github.com/serverdensity/measure-react-component-reuse/blob/master/scripts/component-health.js) to make it work with the requirements of your code-base. The approach should be sound, but file paths, regular expressions, stuff like that will need to be customised.
 
 It would be entirely possible to make this script configurable so that it can fit any code-base.
