@@ -1,0 +1,13 @@
+{
+  "name": "measure-react-component-reuse",
+  "version": "0.1.0",
+  "description": "A relatively naive script to get stats on React component re-use inside a code-base",
+  "license": "BSD-3-Clause",
+  "scripts": {
+    "component-reuse": "node ./scripts/component-health.js"
+  },
+  "devDependencies": {
+    "sloc": "0.1.10",
+    "walk": "2.3.9"
+  }
+}
