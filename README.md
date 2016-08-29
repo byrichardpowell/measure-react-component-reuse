@@ -8,7 +8,7 @@ This is a relatively naive script to measure 3 things:
 
 ## Motivation
 
-One of the reasons React is such a joy to work with is because React makes extremely composable UI components pretty trivial.  But how successful is a code-base in utilizing this power?.
+One of the reasons React is such a joy to work with is because React makes extremely composable UI components pretty trivial.  But how successful is a code-base in utilizing this power?
 
 This script aims to provide insight on how composable a code-base's components are.  It's trying to answer the question: Are the components in a code-base getting more composable or less composable?
 
@@ -17,10 +17,10 @@ This script aims to provide insight on how composable a code-base's components a
 This script measures 3 stats:
 
 1. Lines of code per generic component.
-2. number of generic component.
+2. Number of generic components.
 3. Instances per generic component.
 
-On their own these stats aren't much. Taken together over many months they tell a story:
+On their own these stats aren't much but taken together over many months they tell a story:
 
 ![Image showing 6 months of stats](https://github.com/serverdensity/measure-react-component-reuse/blob/master/serverdensity-stats.png)
 
