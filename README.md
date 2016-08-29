@@ -22,7 +22,7 @@ This script measures 3 stats:
 
 On their own these stats aren't much. Taken together over many months they tell a story:
 
-![https://raw.githubusercontent.com/serverdensity/measure-react-component-reuse/master/serverdensity-stats.png](Spreadsheet showing 6 months worth of stats)
+![Spreadsheet showing 6 months of stats](https://raw.githubusercontent.com/serverdensity/measure-react-component-reuse/master/serverdensity-stats.png)
 
 This tells us that the number of components, and instances of those generic components has been increasing at a pretty steady rate which means we are getting better at re-using components. However, in the most recent month the instances per generic component decreased. Because the number of generic components increased this tells us that we added new generic components that have not yet been re-used in many places.  If this is true we might expect to see the instances per generic component increase at an accelerated rate over the next few months.
 
@@ -36,12 +36,12 @@ To generate the stats for the components in this repository:
 
 This will generate stats like so:
 
-![https://raw.githubusercontent.com/serverdensity/measure-react-component-reuse/master/sample-stats.png](Spreadsheet showing 6 months worth of stats)
+![Sample output from this script](https://raw.githubusercontent.com/serverdensity/measure-react-component-reuse/master/sample-stats.png)
 
 ## Limitations
 
 Just like [Document Generic React Components](https://github.com/byrichardpowell/Document-Generic-React-Components)this script was built for the specific requirements of the Server Density UI codebase. No configuration is provided and the script works based on assumptions that are only likely to be true in our code-base.
 
-If you wish to use this yourself you will need to edit the code in scripts/create-generic-component-docs.js to make it work with the requirements of your code-base. The approach should be sound, but file paths, regular expressions, stuff like that will need to be customised.
+If you wish to use this yourself you will need to edit the code in `scripts/create-generic-component-docs.js` to make it work with the requirements of your code-base. The approach should be sound, but file paths, regular expressions, stuff like that will need to be customised.
 
 It would be entirely possible to make this script configurable so that it can fit any code-base.
